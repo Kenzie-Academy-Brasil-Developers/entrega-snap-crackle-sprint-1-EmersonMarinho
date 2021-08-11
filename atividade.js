@@ -14,3 +14,12 @@ function snapCrackle (maxValue){
     return write
 }
 console.log (snapCrackle(15))
+
+function snapCracklePrime (maxValue){
+    let write = ""
+    for(let i = 2; i<= maxValue; i++){
+        if (i % i === 0){
+            return false; 
+        }
+    }
+}
